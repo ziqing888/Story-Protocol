@@ -17,7 +17,7 @@ else
 fi
 
 show "Installing npm..."
-source <(wget -O - https://raw.githubusercontent.com/zunxbt/installation/main/node.sh)
+source <(wget -O - https://raw.githubusercontent.com/ziqing888/installation/main/node.sh)
 
 if [ -d "Story-Protocol" ]; then
     show "Removing existing Story directory..."
