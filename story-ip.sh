@@ -25,7 +25,7 @@ if [ -d "Story-Protocol" ]; then
 fi
 
 show "正在克隆 Story 仓库..."
-git clone https://github.com/ziqing888/Story-Protocol.git && cd Story-Protocol
+git clone https://github.com/zunxbt/Story-Protocol.git && cd Story-Protocol
 
 show "正在安装 npm 依赖..."
 npm install
